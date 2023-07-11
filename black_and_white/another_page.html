@@ -1,0 +1,351 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>black &amp; white - Calendar</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">black<span class="logo_colour">&amp;white</span></a></h1>
+          <h2>Black &amp; White Notes take on your success journey with us.</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="page.html">Our Product</a></li>
+          <li class="selected"><a href="another_page.html">Calendar</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>Daily Motivational Quotes </h3>
+        <h4>Swami Vivekananda</h4>
+        <p>"Take up one idea. Make that one idea your life -- think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body be full of that idea, and just leave every other idea alone. This is the way to success."<br /><a href="https://www.inc.com/sujan-patel/101-inspiring-quotes-from-the-most-successful-people-in-history.html">Read more</a></p>
+        <p></p>
+        <h4>Roy T. Bennett</h4>
+        <p>""Success is not how high you have climbed, but how you make a positive difference to the world."<br /><a href="https://www.forbesindia.com/article/explainers/40+-inspirational-quotes-to-keep-you-motivated-to-achieve-goals-and-find-success-in-lifes/84809/1">Read more</a></p>
+        <h3>Useful Links</h3>
+        <ul>
+          <li><a href="https://google.com">Google</a></li>
+          <li><a href="https://youtube.com">Youtube</a></li>
+          <li><a href="another_page.html">Calendar</a></li>
+          <li><a href="https://gmail.com">Gmail</a></li>
+        </ul>
+
+        <h3>Search</h3>
+        <body>
+          <form action="https://www.google.com/search" target="_blank">
+            <input type="text" name="q" placeholder="Search on Google" required>
+            <button type="submit">Search</button>
+          </form>
+        </body>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Calendar</h1>
+        <head>
+          <title>Weekly Events Calendar</title>
+          <style>
+            table {
+              width: 100%;
+              border-collapse: collapse;
+            }
+            th, td {
+              border: 1px solid #ccc;
+              padding: 8px;
+            }
+            th {
+              background-color: #f2f2f2;
+            }
+            td input {
+              width: 100%;
+              border: none;
+              background-color: transparent;
+            }
+          </style>
+        </head>
+        <body>
+          <h1>Weekly Events Calendar</h1>
+          <table>
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Generate rows for each hour -->
+                  <tr>
+                    <td>12 AM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>1 AM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>2 AM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>4 AM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>5 AM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>6 AM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>7 AM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>8 AM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>9 AM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>10 AM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>11 AM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>12 PM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>1 PM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>2 PM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>3 PM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>4 PM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>5 PM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>6 PM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>7 PM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>8 PM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>9 PM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>10 PM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>11 PM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                  <tr>
+                    <td>12 PM</td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                    <td><input type="text" name="event[]" value=""></td>
+                  </tr>
+                <?php endif; ?>
+              <?php endfor; ?>
+            </tbody>
+          </table>
+        </body>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+    </div>
+  </div>
+</body>
+</html>
